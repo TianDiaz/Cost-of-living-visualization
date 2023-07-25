@@ -50,8 +50,8 @@ def plot_cost_of_living(data, national_average):
     bars[min_index].set_color('g')  # Set color for the bar with the minimum value
     plt.annotate(f'Max: {data["Total_Cost_of_Living"].max():.2f}',
                  xy=(max_index, data['Total_Cost_of_Living'].max()), xycoords='data',
-                 xytext=(6, -4), textcoords='offset points', color='#DA2C38',
-                 ha='left', va='bottom', fontsize=12)
+                 xytext=(10, -16), textcoords='offset points', color='white',
+                 ha='left', va='bottom', fontsize=12, bbox=dict(boxstyle="round,pad=0.3", fc="#DA2C38", ec="white", lw=1))
     plt.annotate(f'Min: {data["Total_Cost_of_Living"].min():.2f}',
                  xy=(min_index, data['Total_Cost_of_Living'].min()), xycoords='data',
                  xytext=(10, -16), textcoords='offset points', color='white',
