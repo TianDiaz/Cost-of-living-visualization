@@ -93,3 +93,6 @@ upload_btn.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
 
 # Start the main event loop
 root.mainloop()
+
+# Created by TianDiaz - https://github.com/TianDiaz
+
